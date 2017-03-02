@@ -37,6 +37,24 @@ name = "Interior Scope V2"
 
 			name = "Ceiling Trim"
 
+## The following section will activate if "Celing Trim" is selected as a Damaged
+## area
+
+			[[sections.sections]]
+
+				name = "Ceiling Trim Damage"
+
+			[[sections.sections.fields]]
+				field_type = "multiple-photo"
+				name = "Photos of Damage"
+
+			[[sections.sections.fields]]
+
+				field_type = "multiple-line-number"
+				name = "Ceiling Trim Scope"
+				placeholder = "Record Damage"
+				suggestions = "R&R,Paint,3 1/4\",4 1/4\",Corner Trim,Cove,Crown,Moulding,LF"
+
 		[[sections.fields.choices]]
 
 			name = "Ceiling Covering"
@@ -52,6 +70,15 @@ name = "Interior Scope V2"
 		[[sections.fields.choices]]
 
 			name = "Ceiling Lights & Fans"
+
+
+[[conditions]]
+
+	observes_field_name = "Damaged Areas - Ceiling"
+	activates_section_name = "Ceiling Trim Damage"
+	conditional_operator = "contains"
+	conditional_value = "Ceiling Trim"
+
 
 ## Based upon the answer to this multiple-choice, the form will load a section for
 ## each of the areas that are damaged. This will be the case for each sections
