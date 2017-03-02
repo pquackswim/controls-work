@@ -1,0 +1,139 @@
+name = "Interior Scope V2"
+
+[[sections]]
+
+	name = "Room Overview"
+
+	[[sections.fields]]
+
+		field_type = "multiple-photo"
+		name = "Room Overview"
+		placeholder = "2-3 Overview Photos"
+
+##This portion of the code handles the scoping out of the Ceiling ##
+
+
+[[sections]]
+
+	name = "Ceiling Scope"
+
+	[[sections.fields]]
+
+		field_type = "multiple-photo"
+		name = "Ceiling Photos"
+		placeholder = "Overviews & Close-ups"
+
+## This next section asks whether or not the user observes any damage to specific
+## sections of the Interior. If there is no damage or the field isn't applicable, 
+## no multi-line text prompt is given.
+
+	[[sections.fields]]
+
+		field_type = "multiple-choice"
+		name = "Damaged Areas - Ceiling"
+		placeholder = "other"
+
+		[[sections.fields.choices]]
+
+			name = "Ceiling Trim"
+
+		[[sections.fields.choices]]
+
+			name = "Ceiling Covering"
+
+		[[sections.fields.choices]]
+		
+			name = "Ceiling Framing"	
+
+		[[sections.fields.choices]]
+
+			name = "Ceiling Underlayment"
+
+		[[sections.fields.choices]]
+
+			name = "Ceiling Lights & Fans"
+
+## Based upon the answer to this multiple-choice, the form will load a section for
+## each of the areas that are damaged. This will be the case for each sections
+## of the Room
+
+[[sections]]
+
+	name = "Wall Scope"
+
+	[[sections.fields]]
+
+		field_type = "multiple-photo"
+		name = "Wall Photos"
+		placeholder = "Overviews & Close-ups"
+
+## This next section asks whether or not the user observes any damage to specific
+## sections of the Wall. If there is no damage or the field isn't applicable, 
+## no multi-line text prompt is given.
+
+	[[sections.fields]]
+
+		field_type = "multiple-choice"
+		name = "Damaged Areas - Wall"
+		placeholder = "other"
+
+		[[sections.fields.choices]]
+
+			name = "Wall Covering"
+
+		[[sections.fields.choices]]
+
+			name = "Wall Trim"
+
+		[[sections.fields.choices]]
+		
+			name = "Wall Underlayment"	
+
+		[[sections.fields.choices]]
+
+			name = "Wall Framing"
+
+		[[sections.fields.choices]]
+
+			name = "Wall Lights"
+
+## Based upon the answer to this multiple-choice, the form will load a section for
+## each of the areas that are damaged. This will be the case for each sections
+## of the Room
+
+[[sections]]
+
+	name = "Floor Scope"
+
+	[[sections.fields]]
+
+		field_type = "multiple-photo"
+		name = "Floor Photos"
+		placeholder = "Overviews & Close-ups"
+
+## This next section asks whether or not the user observes any damage to specific
+## sections of the Floor. If there is no damage or the field isn't applicable, 
+## no multi-line text prompt is given.
+
+	[[sections.fields]]
+
+		field_type = "multiple-choice"
+		name = "Damaged Areas - Floor"
+		placeholder = "other"
+
+		[[sections.fields.choices]]
+
+			name = "Floor Covering"
+
+		[[sections.fields.choices]]
+
+			name = "Floor Trim"
+
+		[[sections.fields.choices]]
+		
+			name = "Floor Underlayment"	
+
+		[[sections.fields.choices]]
+
+			name = "Floor Framing"
+
