@@ -1,0 +1,513 @@
+[
+  {
+    "id": "807b91ab-ed8c-4d69-91ec-14fa8658289f",
+    "type": "Section",
+    "identifier": "807b91ab-ed8c-4d69-91ec-14fa8658289f",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Check In",
+      "children": [
+        {
+          "id": "1c314e59-27bd-4c01-8e09-00b44ed9484d",
+          "type": "TimeStamp",
+          "identifier": "1c314e59-27bd-4c01-8e09-00b44ed9484d",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "timeStamp": {
+            "answerId": "",
+            "label": "Time of Arrival",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "placeholder": "0001-01-01T00:00:00Z"
+          }
+        },
+        {
+          "id": "94ba29d1-0b09-48e2-85e7-0d0832d478fc",
+          "type": "MultiPhoto",
+          "identifier": "94ba29d1-0b09-48e2-85e7-0d0832d478fc",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "House Photos",
+            "help": "Take pictures of the house",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "ddafc217-1355-47ba-a815-ab9417292c11",
+          "type": "MultiPhoto",
+          "identifier": "ddafc217-1355-47ba-a815-ab9417292c11",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Address Verification photos",
+            "help": "Take pictures of the address number",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "1c9ffea4-5bba-4410-9a80-044fb8c7b97b",
+          "type": "MultiLineText",
+          "identifier": "1c9ffea4-5bba-4410-9a80-044fb8c7b97b",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Inspection Attendees",
+            "help": "Please write down who is there",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "Insured =",
+              "Contractor =",
+              "PA ="
+            ],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "807b91ab-ed8c-4d69-91ec-14fa8658289f",
+    "type": "Section",
+    "identifier": "807b91ab-ed8c-4d69-91ec-14fa8658289f",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Roof",
+      "children": [
+        {
+          "id": "739bb410-d961-46d7-8829-43c76c9cec47",
+          "type": "MultiPhoto",
+          "identifier": "739bb410-d961-46d7-8829-43c76c9cec47",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Roof Photos",
+            "help": "Take pictures of the Roof",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "2e6199dd-63e9-4aaf-a7f1-4b198148d9e4",
+          "type": "MultiLineText",
+          "identifier": "2e6199dd-63e9-4aaf-a7f1-4b198148d9e4",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Roof Notes",
+            "help": "Write down any observations you've made",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "a8f66a0e-9c90-4f2e-ac19-21072f0ee249",
+    "type": "Section",
+    "identifier": "a8f66a0e-9c90-4f2e-ac19-21072f0ee249",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Front Elevation",
+      "children": [
+        {
+          "id": "122c8265-dfaf-43f0-9a94-c2961f9b3fd4",
+          "type": "MultiPhoto",
+          "identifier": "122c8265-dfaf-43f0-9a94-c2961f9b3fd4",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Front Elevation Photos",
+            "help": "Take some pictures of the front elevation",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "b4859097-6cc2-4f8d-b3dd-213fb72772b0",
+          "type": "MultiLineText",
+          "identifier": "b4859097-6cc2-4f8d-b3dd-213fb72772b0",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Front Elevation Notes",
+            "help": "Write down any observations",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "b3e65d2a-e917-4fd0-843c-a8261b65ede9",
+    "type": "Section",
+    "identifier": "b3e65d2a-e917-4fd0-843c-a8261b65ede9",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Right Elevation",
+      "children": [
+        {
+          "id": "4f2f78fe-c08d-4151-93db-32a951c28248",
+          "type": "MultiPhoto",
+          "identifier": "4f2f78fe-c08d-4151-93db-32a951c28248",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Right Elevation Photos",
+            "help": "Take some pictures of the Right Elevation",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "a3fe6dce-0c58-4519-a1bc-f1c2f2e8c42b",
+          "type": "MultiLineText",
+          "identifier": "a3fe6dce-0c58-4519-a1bc-f1c2f2e8c42b",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Right Elevation Notes",
+            "help": "Write down any observations",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "f2e222f3-55de-47d7-b81c-e62ea07a328b",
+    "type": "Section",
+    "identifier": "f2e222f3-55de-47d7-b81c-e62ea07a328b",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Back Elevation ",
+      "children": [
+        {
+          "id": "f0b93086-91d6-4298-a071-1abfaa0a355c",
+          "type": "MultiPhoto",
+          "identifier": "f0b93086-91d6-4298-a071-1abfaa0a355c",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Back Elevation  Photos",
+            "help": "Take some pictures of the Back Elevation ",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "3cbc3de8-1258-4b65-9d4c-ba4e29adf6cb",
+          "type": "MultiLineText",
+          "identifier": "3cbc3de8-1258-4b65-9d4c-ba4e29adf6cb",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Back Elevation  Notes",
+            "help": "Write down any observations",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "d9c126a1-94f7-434c-9044-201f91c3ba85",
+    "type": "Section",
+    "identifier": "d9c126a1-94f7-434c-9044-201f91c3ba85",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Left Elevation",
+      "children": [
+        {
+          "id": "eaba502d-c15a-486c-8a19-6f157b4b2aaf",
+          "type": "MultiPhoto",
+          "identifier": "eaba502d-c15a-486c-8a19-6f157b4b2aaf",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Left Elevation Photos",
+            "help": "Take some pictures of the Left Elevation",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "6ba8e960-814c-4bc8-9aa9-98206bf541de",
+          "type": "MultiLineText",
+          "identifier": "6ba8e960-814c-4bc8-9aa9-98206bf541de",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Left Elevation Notes",
+            "help": "Write down any observations",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "73677426-38f4-4e08-9654-aa8f63f6af91",
+    "type": "Section",
+    "identifier": "73677426-38f4-4e08-9654-aa8f63f6af91",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Check Out",
+      "children": [
+        {
+          "id": "23414fc5-3439-4d91-af0c-e8e12c1b56c7",
+          "type": "MultiLineText",
+          "identifier": "23414fc5-3439-4d91-af0c-e8e12c1b56c7",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Adjuster's Observations",
+            "help": "Write any additional observations you've made",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        },
+        {
+          "id": "35538139-1623-42e0-9887-f8f18f14cc28",
+          "type": "DateInput",
+          "identifier": "35538139-1623-42e0-9887-f8f18f14cc28",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "dateInput": {
+            "answerId": "",
+            "label": "Confirmed Date of Loss",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "placeholder": ""
+          }
+        },
+        {
+          "id": "2bff1f68-6db7-409c-9475-5a130aa0666f",
+          "type": "SingleSelect",
+          "identifier": "2bff1f68-6db7-409c-9475-5a130aa0666f",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "singleSelect": {
+            "answerId": "",
+            "label": "Confirmed Cause of Loss",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "layout": "default",
+            "optionPoolId": "c3b9fdd3-de30-55cb-a500-ab1a0bf303d4"
+          }
+        },
+        {
+          "id": "4204d5b0-ec3c-4d48-81f6-87ea59802339",
+          "type": "MultiLineText",
+          "identifier": "4204d5b0-ec3c-4d48-81f6-87ea59802339",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Names of All Parties Present + Role",
+            "help": "Who was there?",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "=",
+              "PA",
+              "Insured",
+              "Contractor",
+              "Mr.",
+              "Mrs.",
+              "Ms."
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "0ce01ccd-5a2e-478b-b46d-e2837e15ac6b",
+          "type": "MultiLineText",
+          "identifier": "0ce01ccd-5a2e-478b-b46d-e2837e15ac6b",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Roof Inspection Results",
+            "help": "",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        },
+        {
+          "id": "e48116b5-f3a0-42c5-b613-47461ce93bc9",
+          "type": "MultiLineText",
+          "identifier": "e48116b5-f3a0-42c5-b613-47461ce93bc9",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Elevation Inspection Results",
+            "help": "",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        },
+        {
+          "id": "700b1a35-e9f2-46ea-b4a1-65e90bf8f54e",
+          "type": "TimeStamp",
+          "identifier": "700b1a35-e9f2-46ea-b4a1-65e90bf8f54e",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "timeStamp": {
+            "answerId": "",
+            "label": "Time Completed",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "placeholder": "0001-01-01T00:00:00Z"
+          }
+        },
+        {
+          "id": "fe205885-d16e-42fe-a244-2c2b0eae7f53",
+          "type": "MultiLineText",
+          "identifier": "fe205885-d16e-42fe-a244-2c2b0eae7f53",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Additional Observations",
+            "help": "",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  }
+]
