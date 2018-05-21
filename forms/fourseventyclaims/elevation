@@ -1,0 +1,256 @@
+{
+    "id": "f62a0dcf-8317-46e4-bf95-30726ecdd26b",
+    "type": "Section",
+    "identifier": "f62a0dcf-8317-46e4-bf95-30726ecdd26b",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+        "title": "Front Elevation",
+        "children": [
+
+{
+    "id": "10049fa4-c6c0-4172-b57e-f7738984f45a",
+    "type": "MultiPhoto",
+    "identifier": "10049fa4-c6c0-4172-b57e-f7738984f45a",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "multiPhoto": {
+      "answerId": "",
+      "label": "Elevation Overview Photos",
+      "help": "Take several photos of the elevation",
+      "readOnlyRule": "never",
+      "readOnlyExpr": "",
+      "requiredRule": "never",
+      "requiredExpr": ""
+    }
+  },
+  {
+      "id": "b42c64ec-9b1f-4f5e-927f-1078185e2b24",
+      "type": "MultiPhoto",
+      "identifier": "b42c64ec-9b1f-4f5e-927f-1078185e2b24",
+      "visibilityRule": "always",
+      "visibilityExpr": "",
+      "errors": {},
+      "multiPhoto": {
+        "answerId": "",
+        "label": "Gutter Photos",
+        "help": "Take photos of any gutters present",
+        "readOnlyRule": "never",
+        "readOnlyExpr": "",
+        "requiredRule": "never",
+        "requiredExpr": ""
+      }
+    },
+    {
+            "id": "033a6dd0-bb7d-4066-a8a0-24db6c33ef34",
+            "type": "MultiLineText",
+            "identifier": "033a6dd0-bb7d-4066-a8a0-24db6c33ef34",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Gutters Scope",
+              "help": "Describe the gutters",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Clean",
+                "4in.",
+                "5in.",
+                "6in.",
+                "Alum",
+                "Steel",
+                "Copper",
+                "w/ Guards",
+                "LF"
+              ],
+              "snippets": []
+}
+},
+{
+    "id": "b71e4e80-20e0-4cf3-b350-4208a7a4f98e",
+    "type": "MultiPhoto",
+    "identifier": "b71e4e80-20e0-4cf3-b350-4208a7a4f98e",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "multiPhoto": {
+      "answerId": "",
+      "label": "Downspout Photos",
+      "help": "Take photos of the downspouts",
+      "readOnlyRule": "never",
+      "readOnlyExpr": "",
+      "requiredRule": "never",
+      "requiredExpr": ""
+    }
+  },
+  {
+            "id": "137c6383-d1c2-4067-863e-ff7ff0c9f5e1",
+            "type": "MultiLineText",
+            "identifier": "137c6383-d1c2-4067-863e-ff7ff0c9f5e1",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Downspout Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Clean",
+                "4in.",
+                "5in.",
+                "6in.",
+                "Alum",
+                "Steel",
+                "Copper",
+                "w/ Guards",
+                "LF"
+              ],
+              "snippets": []
+}
+},
+{
+    "id": "a665d334-7272-4712-8a9f-fdedfc5a3ca7",
+    "type": "MultiPhoto",
+    "identifier": "a665d334-7272-4712-8a9f-fdedfc5a3ca7",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "multiPhoto": {
+      "answerId": "",
+      "label": "Fascia/Soffit Photos",
+      "help": "Take some photos of the Fascia/Soffit",
+      "readOnlyRule": "never",
+      "readOnlyExpr": "",
+      "requiredRule": "never",
+      "requiredExpr": ""
+    }
+  },
+  {
+            "id": "15ce7966-1a11-4e49-9975-cf0859d7a175",
+            "type": "MultiLineText",
+            "identifier": "15ce7966-1a11-4e49-9975-cf0859d7a175",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Fascia Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "4in.",
+                "6in."
+                "8in.",
+                "10in.",
+                "Alum Vinyl",
+                "Wood",
+                "LF"
+              ],
+              "snippets": []
+}
+},
+{
+            "id": "fa9cbcaa-8fff-48cd-a9d4-86efcbad3e50",
+            "type": "MultiLineText",
+            "identifier": "fa9cbcaa-8fff-48cd-a9d4-86efcbad3e50",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Soffit Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "12in.",
+                "16in.",
+                "24in.",
+                "Alum Vinyl",
+                "Vented",
+                "Wood",
+                "LF",
+                "Soffit Vents"
+              ],
+              "snippets": []
+}
+},
+{
+    "id": "4e6d049d-4bfc-4e26-a1d0-2418ab5cb288",
+    "type": "MultiPhoto",
+    "identifier": "4e6d049d-4bfc-4e26-a1d0-2418ab5cb288",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "multiPhoto": {
+      "answerId": "",
+      "label": "Trim/Frieze Photos",
+      "help": "Take photos of the Trim/Frieze",
+      "readOnlyRule": "never",
+      "readOnlyExpr": "",
+      "requiredRule": "never",
+      "requiredExpr": ""
+    }
+  },
+  {
+            "id": "41c5b439-6ac6-4add-b0b1-cb16f3d30dc0",
+            "type": "MultiLineText",
+            "identifier": "41c5b439-6ac6-4add-b0b1-cb16f3d30dc0",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Trim/Frieze Scope",
+              "help": "(Insert Help Text)",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "QuickKey 1",
+                "QuickKey 2",
+                "QuickKey 3"
+              ],
+              "snippets": []
+}
+
+        ]
+    }
+}
