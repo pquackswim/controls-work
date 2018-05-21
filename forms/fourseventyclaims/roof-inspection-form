@@ -1,0 +1,2652 @@
+{
+  "id": "4f6d03ef-468c-4263-9eda-da632d844687",
+  "type": "Section",
+  "identifier": "4f6d03ef-468c-4263-9eda-da632d844687",
+  "visibilityRule": "always",
+  "visibilityExpr": "",
+  "errors": {},
+  "section": {
+    "title": "Roof Parameters",
+    "children": [
+      {
+        "id": "de667a2b-f062-44e0-bba0-b6ed853b2c9e",
+        "type": "MultiPhoto",
+        "identifier": "de667a2b-f062-44e0-bba0-b6ed853b2c9e",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiPhoto": {
+          "answerId": "",
+          "label": "Roof Overviews",
+          "help": "Take some overviews of the roof",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": ""
+        }
+      },
+      {
+        "id": "a7081352-0e93-4f9d-8b52-2bf265c11777",
+        "type": "SingleSelect",
+        "identifier": "a7081352-0e93-4f9d-8b52-2bf265c11777",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "singleSelect": {
+          "answerId": "",
+          "label": "Roof Height",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "layout": "default",
+          "optionPoolId": "cbfea54f-c2c0-52e8-9895-ca918fdefe40"
+        }
+      },
+      {
+        "id": "28d217f2-9b69-4dad-be12-660f3da0d7d7",
+        "type": "MultiPhoto",
+        "identifier": "28d217f2-9b69-4dad-be12-660f3da0d7d7",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiPhoto": {
+          "answerId": "",
+          "label": "Roof Material Photos",
+          "help": "Take some close ups of the roof material",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": ""
+        }
+      },
+      {
+        "id": "7020c47b-d3c7-4d1b-923a-67b42523389d",
+        "type": "SingleSelect",
+        "identifier": "7020c47b-d3c7-4d1b-923a-67b42523389d",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "singleSelect": {
+          "answerId": "",
+          "label": "Roof Material",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "layout": "default",
+          "optionPoolId": "29c7ddc7-08c6-5e4d-8e93-eaad70905a0e"
+        }
+      },
+      {
+        "id": "de6ef5c1-b7f3-4253-a1cc-89001e75a217",
+        "type": "SingleSelect",
+        "identifier": "de6ef5c1-b7f3-4253-a1cc-89001e75a217",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "singleSelect": {
+          "answerId": "",
+          "label": "Shingle Layers",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "layout": "default",
+          "optionPoolId": "024a8f96-7ff6-5a88-82d2-70516370da97"
+        }
+      },
+      {
+        "id": "57e86532-0e3f-4481-a4e0-6041b886cb69",
+        "type": "MultiLineText",
+        "identifier": "57e86532-0e3f-4481-a4e0-6041b886cb69",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Shingle/Roof Age",
+          "help": "How old is this roof?",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [
+            "Years Old",
+            "Approximately"
+          ],
+          "snippets": []
+        }
+      },
+      {
+        "id": "0884266a-fd08-432e-98d2-6db3f32856d1",
+        "type": "MultiPhoto",
+        "identifier": "0884266a-fd08-432e-98d2-6db3f32856d1",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiPhoto": {
+          "answerId": "",
+          "label": "Pitch Gauge Photo",
+          "help": "Take a picture of your pitch gauge",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": ""
+        }
+      },
+      {
+        "id": "7cf877fa-0178-441c-bcd4-14df6bb05095",
+        "type": "MultiLineText",
+        "identifier": "7cf877fa-0178-441c-bcd4-14df6bb05095",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Roof Pitch",
+          "help": "What are the pitches on this roof?",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [
+            "4/12",
+            "5/12",
+            "6/12",
+            "7/12",
+            "8/12",
+            "9/12",
+            "10/12",
+            "Primary Pitch",
+            "Secondary Pitch"
+          ],
+          "snippets": []
+        }
+      },
+      {
+        "id": "f7fed0ad-ec9a-41b4-8f58-bef7594c896c",
+        "type": "SingleSelect",
+        "identifier": "f7fed0ad-ec9a-41b4-8f58-bef7594c896c",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "singleSelect": {
+          "answerId": "",
+          "label": "Felt Type",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "layout": "default",
+          "optionPoolId": "90dc6c8c-9bff-461f-87bf-34a346a03efa"
+        }
+      },
+      {
+        "id": "5c1de49d-661f-45db-b39d-a97ec9a8c736",
+        "type": "MultiPhoto",
+        "identifier": "5c1de49d-661f-45db-b39d-a97ec9a8c736",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiPhoto": {
+          "answerId": "",
+          "label": "Valley Liner Photos",
+          "help": "",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": ""
+        }
+      },
+      {
+        "id": "df9329e0-a3ed-4358-9b23-418a1d01b8ee",
+        "type": "SingleSelect",
+        "identifier": "df9329e0-a3ed-4358-9b23-418a1d01b8ee",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "singleSelect": {
+          "answerId": "",
+          "label": "Valley Liner Type",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "layout": "default",
+          "optionPoolId": "dfa980ec-405c-43b1-a3d3-e08995537a33"
+        }
+      },
+      {
+        "id": "df8b0df4-2106-4686-8865-5fc4cfb3e618",
+        "type": "MultiLineText",
+        "identifier": "df8b0df4-2106-4686-8865-5fc4cfb3e618",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Ice and Water Shield Scope",
+          "help": "Describe it's condition",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [
+            "N/A",
+            "No Dmg",
+            "R&R",
+            "Add for Bldg Code",
+            "Eaves & Valley",
+            "Eaves Only",
+            "Valleys Only",
+            "SF"
+          ],
+          "snippets": []
+        }
+      },
+      {
+        "id": "c2ebdf4c-4df3-4625-9828-7d0687b77d79",
+        "type": "MultiPhoto",
+        "identifier": "c2ebdf4c-4df3-4625-9828-7d0687b77d79",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiPhoto": {
+          "answerId": "",
+          "label": "Drip Edge Photos",
+          "help": "Take photos of the drip edge",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": ""
+        }
+      },
+      {
+        "id": "a5980415-78ab-4c97-a41d-5ef2bf38fe4d",
+        "type": "MultiLineText",
+        "identifier": "a5980415-78ab-4c97-a41d-5ef2bf38fe4d",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Drip Edge Scope",
+          "help": "Describe the condition",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [
+            "N/A",
+            "No Dmg",
+            "R&R",
+            "Add for Bldg Code",
+            "Eaves and Rakes",
+            "Eaves Only",
+            "Rakes Only",
+            "LF"
+          ],
+          "snippets": []
+        }
+      }
+    ]
+  }
+},
+{
+    "id": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+    "type": "Section",
+    "identifier": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+    "visibilityRule": "always",
+    "visibilityExpr": "",
+    "errors": {},
+    "section": {
+      "title": "Front Slope",
+      "children": [
+        {
+          "id": "f5134af0-1922-45c8-8757-812d75801148",
+          "type": "MultiPhoto",
+          "identifier": "f5134af0-1922-45c8-8757-812d75801148",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Slope Overviews",
+            "help": "Take some photos of this slope",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+          "type": "MultiLineText",
+          "identifier": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Test Square Results",
+            "help": "If there was hail damage",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "Front Slope =",
+              "Hits/Square"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+          "type": "MultiPhoto",
+          "identifier": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Test Square Photos",
+            "help": "Take some photos of your test square",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+          "type": "MultiPhoto",
+          "identifier": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Shingle Photos",
+            "help": "Take close ups of any damaged shingles",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+          "type": "MultiLineText",
+          "identifier": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Slope Shingle Scope",
+            "help": "",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "No Dmg",
+              "R&R",
+              "Shingles"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+          "type": "MultiPhoto",
+          "identifier": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Ridge Cap Photos",
+            "help": "Take some photos of the ridge caps",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+          "type": "SingleSelect",
+          "identifier": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "singleSelect": {
+            "answerId": "",
+            "label": "Ridge Cap Type",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "layout": "default",
+            "optionPoolId": "a19c8957-e4e3-5539-af28-32cf467c6ae7"
+          }
+        },
+        {
+          "id": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+          "type": "MultiPhoto",
+          "identifier": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Sheathing/Decking Photos",
+            "help": "Take some photos of the sheathing + decking",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+          "type": "MultiLineText",
+          "identifier": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Sheathing/Decking Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "1/2in. CDX Plywood",
+              "5/8in. CDX Plywood",
+              "7/16in. OSB",
+              "1/2in. OSB",
+              "SF"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+          "type": "MultiPhoto",
+          "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Flashing Photos",
+            "help": "Take some pictures of the Flashing",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+          "type": "MultiLineText",
+          "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Flashing Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Paint",
+              "Flashing",
+              "L (Roof/Wall)",
+              "Counter/Apron",
+              "Step",
+              "Flashing",
+              "LF"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+          "type": "MultiPhoto",
+          "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Transition Flashing Photos",
+            "help": "Take some pictures of the Flashing",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+          "type": "MultiLineText",
+          "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Transition Flashing Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Paint",
+              "Flashing",
+              "L (Roof/Wall)",
+              "Counter/Apron",
+              "Step",
+              "Flashing",
+              "LF"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+          "type": "MultiPhoto",
+          "identifier": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Plumbing/Pipe Jack Photos",
+            "help": "Take some photos of the Plumbing",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+          "type": "MultiLineText",
+          "identifier": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Plumbing/Pipe Jack Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Paint",
+              "Rubber",
+              "Aluminum base w/ Rubber",
+              "Lead",
+              "Steel",
+              "Jacks"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+          "type": "MultiPhoto",
+          "identifier": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Chimney/Venting Photos",
+            "help": "Take some pictures of any Chimneys or Vents",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+          "type": "MultiLineText",
+          "identifier": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Chimney/Venting Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Paint",
+              "Chimney Flue Cap",
+              "Chase Cover",
+              "Chimney Exhaust Vent",
+              "Pot",
+              "Shroud"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+          "type": "MultiPhoto",
+          "identifier": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Chimney Flashing Photos",
+            "help": "Take some photos of the Chimney Flashing",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+          "type": "MultiPhoto",
+          "identifier": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Exhaust/Furnace Vents",
+            "help": "Take photos of the Exhaust/furnace vents",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+          "type": "MultiLineText",
+          "identifier": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Exhaust/Furnace Vent Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Paint",
+              "Exhaust Vent",
+              "Furnace Vent",
+              "5in. Cap",
+              "6in. Cap",
+              "8in. Cap",
+              "10in. Cap"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+          "type": "MultiPhoto",
+          "identifier": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Additional Vent Photos",
+            "help": "Take photos of any additional vents",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+          "type": "MultiLineText",
+          "identifier": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Additional Vent Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Paint",
+              "Candy Canes",
+              "Cupola",
+              "Water Heater Vent"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+          "type": "MultiPhoto",
+          "identifier": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Skylight Photos",
+            "help": "Take Photos of any Skylight",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+          "type": "MultiLineText",
+          "identifier": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "Skylight Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Paint",
+              "Single Dome",
+              "Double Dome",
+              "Fixed",
+              "Over Ridge",
+              "Window",
+              "Tunnel",
+              "Flashing Kit"
+            ],
+            "snippets": []
+          }
+        },
+        {
+          "id": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+          "type": "MultiPhoto",
+          "identifier": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiPhoto": {
+            "answerId": "",
+            "label": "Electrical/HVAC Photos",
+            "help": "Take photos of any HVAC or Electrical Features",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": ""
+          }
+        },
+        {
+          "id": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+          "type": "MultiLineText",
+          "identifier": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "multiLineText": {
+            "answerId": "",
+            "label": "HVAC/Electrical Scope",
+            "help": "Describe what you see",
+            "readOnlyRule": "never",
+            "readOnlyExpr": "",
+            "requiredRule": "never",
+            "requiredExpr": "",
+            "keyboardType": "default",
+            "quickKeys": [
+              "N/A",
+              "No Dmg",
+              "R&R",
+              "Detach&Reset",
+              "Elec Mast",
+              "Sat Dish",
+              "AC Unit",
+              "Evap Cooler",
+              "Solar Panels"
+            ],
+            "snippets": []
+          }
+        }
+      ]
+    }
+  },
+  {
+      "id": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+      "type": "Section",
+      "identifier": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+      "visibilityRule": "always",
+      "visibilityExpr": "",
+      "errors": {},
+      "section": {
+        "title": "Right Slope",
+        "children": [
+          {
+            "id": "f5134af0-1922-45c8-8757-812d75801148",
+            "type": "MultiPhoto",
+            "identifier": "f5134af0-1922-45c8-8757-812d75801148",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Slope Overviews",
+              "help": "Take some photos of this slope",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+            "type": "MultiLineText",
+            "identifier": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Test Square Results",
+              "help": "If there was hail damage",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "Right Slope =",
+                "Hits/Square"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+            "type": "MultiPhoto",
+            "identifier": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Test Square Photos",
+              "help": "Take some photos of your test square",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+            "type": "MultiPhoto",
+            "identifier": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Shingle Photos",
+              "help": "Take close ups of any damaged shingles",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+            "type": "MultiLineText",
+            "identifier": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Slope Shingle Scope",
+              "help": "",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "No Dmg",
+                "R&R",
+                "Shingles"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+            "type": "MultiPhoto",
+            "identifier": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Ridge Cap Photos",
+              "help": "Take some photos of the ridge caps",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+            "type": "SingleSelect",
+            "identifier": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "singleSelect": {
+              "answerId": "",
+              "label": "Ridge Cap Type",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "layout": "default",
+              "optionPoolId": "a19c8957-e4e3-5539-af28-32cf467c6ae7"
+            }
+          },
+          {
+            "id": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+            "type": "MultiPhoto",
+            "identifier": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Sheathing/Decking Photos",
+              "help": "Take some photos of the sheathing + decking",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+            "type": "MultiLineText",
+            "identifier": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Sheathing/Decking Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "1/2in. CDX Plywood",
+                "5/8in. CDX Plywood",
+                "7/16in. OSB",
+                "1/2in. OSB",
+                "SF"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+            "type": "MultiPhoto",
+            "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Flashing Photos",
+              "help": "Take some pictures of the Flashing",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+            "type": "MultiLineText",
+            "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Flashing Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Flashing",
+                "L (Roof/Wall)",
+                "Counter/Apron",
+                "Step",
+                "Flashing",
+                "LF"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+            "type": "MultiPhoto",
+            "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Transition Flashing Photos",
+              "help": "Take some pictures of the Flashing",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+            "type": "MultiLineText",
+            "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Transition Flashing Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Flashing",
+                "L (Roof/Wall)",
+                "Counter/Apron",
+                "Step",
+                "Flashing",
+                "LF"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+            "type": "MultiPhoto",
+            "identifier": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Plumbing/Pipe Jack Photos",
+              "help": "Take some photos of the Plumbing",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+            "type": "MultiLineText",
+            "identifier": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Plumbing/Pipe Jack Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Rubber",
+                "Aluminum base w/ Rubber",
+                "Lead",
+                "Steel",
+                "Jacks"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+            "type": "MultiPhoto",
+            "identifier": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Chimney/Venting Photos",
+              "help": "Take some pictures of any Chimneys or Vents",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+            "type": "MultiLineText",
+            "identifier": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Chimney/Venting Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Chimney Flue Cap",
+                "Chase Cover",
+                "Chimney Exhaust Vent",
+                "Pot",
+                "Shroud"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+            "type": "MultiPhoto",
+            "identifier": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Chimney Flashing Photos",
+              "help": "Take some photos of the Chimney Flashing",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+            "type": "MultiPhoto",
+            "identifier": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Exhaust/Furnace Vents",
+              "help": "Take photos of the Exhaust/furnace vents",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+            "type": "MultiLineText",
+            "identifier": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Exhaust/Furnace Vent Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Exhaust Vent",
+                "Furnace Vent",
+                "5in. Cap",
+                "6in. Cap",
+                "8in. Cap",
+                "10in. Cap"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+            "type": "MultiPhoto",
+            "identifier": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Additional Vent Photos",
+              "help": "Take photos of any additional vents",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+            "type": "MultiLineText",
+            "identifier": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Additional Vent Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Candy Canes",
+                "Cupola",
+                "Water Heater Vent"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+            "type": "MultiPhoto",
+            "identifier": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Skylight Photos",
+              "help": "Take Photos of any Skylight",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+            "type": "MultiLineText",
+            "identifier": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "Skylight Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Paint",
+                "Single Dome",
+                "Double Dome",
+                "Fixed",
+                "Over Ridge",
+                "Window",
+                "Tunnel",
+                "Flashing Kit"
+              ],
+              "snippets": []
+            }
+          },
+          {
+            "id": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+            "type": "MultiPhoto",
+            "identifier": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiPhoto": {
+              "answerId": "",
+              "label": "Electrical/HVAC Photos",
+              "help": "Take photos of any HVAC or Electrical Features",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": ""
+            }
+          },
+          {
+            "id": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+            "type": "MultiLineText",
+            "identifier": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+            "visibilityRule": "always",
+            "visibilityExpr": "",
+            "errors": {},
+            "multiLineText": {
+              "answerId": "",
+              "label": "HVAC/Electrical Scope",
+              "help": "Describe what you see",
+              "readOnlyRule": "never",
+              "readOnlyExpr": "",
+              "requiredRule": "never",
+              "requiredExpr": "",
+              "keyboardType": "default",
+              "quickKeys": [
+                "N/A",
+                "No Dmg",
+                "R&R",
+                "Detach&Reset",
+                "Elec Mast",
+                "Sat Dish",
+                "AC Unit",
+                "Evap Cooler",
+                "Solar Panels"
+              ],
+              "snippets": []
+            }
+          }
+        ]
+      }
+    },
+    {
+        "id": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+        "type": "Section",
+        "identifier": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "section": {
+          "title": "Back Slope",
+          "children": [
+            {
+              "id": "f5134af0-1922-45c8-8757-812d75801148",
+              "type": "MultiPhoto",
+              "identifier": "f5134af0-1922-45c8-8757-812d75801148",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Slope Overviews",
+                "help": "Take some photos of this slope",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+              "type": "MultiLineText",
+              "identifier": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Test Square Results",
+                "help": "If there was hail damage",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "Back Slope =",
+                  "Hits/Square"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+              "type": "MultiPhoto",
+              "identifier": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Test Square Photos",
+                "help": "Take some photos of your test square",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+              "type": "MultiPhoto",
+              "identifier": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Shingle Photos",
+                "help": "Take close ups of any damaged shingles",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+              "type": "MultiLineText",
+              "identifier": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Slope Shingle Scope",
+                "help": "",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "No Dmg",
+                  "R&R",
+                  "Shingles"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+              "type": "MultiPhoto",
+              "identifier": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Ridge Cap Photos",
+                "help": "Take some photos of the ridge caps",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+              "type": "SingleSelect",
+              "identifier": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "singleSelect": {
+                "answerId": "",
+                "label": "Ridge Cap Type",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "layout": "default",
+                "optionPoolId": "a19c8957-e4e3-5539-af28-32cf467c6ae7"
+              }
+            },
+            {
+              "id": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+              "type": "MultiPhoto",
+              "identifier": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Sheathing/Decking Photos",
+                "help": "Take some photos of the sheathing + decking",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+              "type": "MultiLineText",
+              "identifier": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Sheathing/Decking Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "1/2in. CDX Plywood",
+                  "5/8in. CDX Plywood",
+                  "7/16in. OSB",
+                  "1/2in. OSB",
+                  "SF"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+              "type": "MultiPhoto",
+              "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Flashing Photos",
+                "help": "Take some pictures of the Flashing",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+              "type": "MultiLineText",
+              "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Flashing Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Paint",
+                  "Flashing",
+                  "L (Roof/Wall)",
+                  "Counter/Apron",
+                  "Step",
+                  "Flashing",
+                  "LF"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+              "type": "MultiPhoto",
+              "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Transition Flashing Photos",
+                "help": "Take some pictures of the Flashing",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+              "type": "MultiLineText",
+              "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Transition Flashing Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Paint",
+                  "Flashing",
+                  "L (Roof/Wall)",
+                  "Counter/Apron",
+                  "Step",
+                  "Flashing",
+                  "LF"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+              "type": "MultiPhoto",
+              "identifier": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Plumbing/Pipe Jack Photos",
+                "help": "Take some photos of the Plumbing",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+              "type": "MultiLineText",
+              "identifier": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Plumbing/Pipe Jack Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Paint",
+                  "Rubber",
+                  "Aluminum base w/ Rubber",
+                  "Lead",
+                  "Steel",
+                  "Jacks"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+              "type": "MultiPhoto",
+              "identifier": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Chimney/Venting Photos",
+                "help": "Take some pictures of any Chimneys or Vents",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+              "type": "MultiLineText",
+              "identifier": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Chimney/Venting Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Paint",
+                  "Chimney Flue Cap",
+                  "Chase Cover",
+                  "Chimney Exhaust Vent",
+                  "Pot",
+                  "Shroud"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+              "type": "MultiPhoto",
+              "identifier": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Chimney Flashing Photos",
+                "help": "Take some photos of the Chimney Flashing",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+              "type": "MultiPhoto",
+              "identifier": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Exhaust/Furnace Vents",
+                "help": "Take photos of the Exhaust/furnace vents",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+              "type": "MultiLineText",
+              "identifier": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Exhaust/Furnace Vent Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Paint",
+                  "Exhaust Vent",
+                  "Furnace Vent",
+                  "5in. Cap",
+                  "6in. Cap",
+                  "8in. Cap",
+                  "10in. Cap"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+              "type": "MultiPhoto",
+              "identifier": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Additional Vent Photos",
+                "help": "Take photos of any additional vents",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+              "type": "MultiLineText",
+              "identifier": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Additional Vent Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Paint",
+                  "Candy Canes",
+                  "Cupola",
+                  "Water Heater Vent"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+              "type": "MultiPhoto",
+              "identifier": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Skylight Photos",
+                "help": "Take Photos of any Skylight",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+              "type": "MultiLineText",
+              "identifier": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "Skylight Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Paint",
+                  "Single Dome",
+                  "Double Dome",
+                  "Fixed",
+                  "Over Ridge",
+                  "Window",
+                  "Tunnel",
+                  "Flashing Kit"
+                ],
+                "snippets": []
+              }
+            },
+            {
+              "id": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+              "type": "MultiPhoto",
+              "identifier": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiPhoto": {
+                "answerId": "",
+                "label": "Electrical/HVAC Photos",
+                "help": "Take photos of any HVAC or Electrical Features",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": ""
+              }
+            },
+            {
+              "id": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+              "type": "MultiLineText",
+              "identifier": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+              "visibilityRule": "always",
+              "visibilityExpr": "",
+              "errors": {},
+              "multiLineText": {
+                "answerId": "",
+                "label": "HVAC/Electrical Scope",
+                "help": "Describe what you see",
+                "readOnlyRule": "never",
+                "readOnlyExpr": "",
+                "requiredRule": "never",
+                "requiredExpr": "",
+                "keyboardType": "default",
+                "quickKeys": [
+                  "N/A",
+                  "No Dmg",
+                  "R&R",
+                  "Detach&Reset",
+                  "Elec Mast",
+                  "Sat Dish",
+                  "AC Unit",
+                  "Evap Cooler",
+                  "Solar Panels"
+                ],
+                "snippets": []
+              }
+            }
+          ]
+        }
+      },
+
+        {
+          "id": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+          "type": "Section",
+          "identifier": "47f7713c-30e2-47d6-9f8d-b1bd060ac890",
+          "visibilityRule": "always",
+          "visibilityExpr": "",
+          "errors": {},
+          "section": {
+            "title": "Left Slope",
+            "children": [
+              {
+                "id": "f5134af0-1922-45c8-8757-812d75801148",
+                "type": "MultiPhoto",
+                "identifier": "f5134af0-1922-45c8-8757-812d75801148",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Slope Overviews",
+                  "help": "Take some photos of this slope",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+                "type": "MultiLineText",
+                "identifier": "13a1ac80-3a5b-4329-aa3e-3c81ba767e94",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Test Square Results",
+                  "help": "If there was hail damage",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "Left Slope =",
+                    "Hits/Square"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+                "type": "MultiPhoto",
+                "identifier": "6d0f33bb-c481-486e-a19d-f6555dbbfebf",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Test Square Photos",
+                  "help": "Take some photos of your test square",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+                "type": "MultiPhoto",
+                "identifier": "d2dd4a4c-69a2-4fc2-a48c-8de4ca3c6844",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Shingle Photos",
+                  "help": "Take close ups of any damaged shingles",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+                "type": "MultiLineText",
+                "identifier": "a3418019-d3ec-4d78-8bfa-83d573bfc8ec",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Slope Shingle Scope",
+                  "help": "",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "No Dmg",
+                    "R&R",
+                    "Shingles"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+                "type": "MultiPhoto",
+                "identifier": "4381415f-4c60-47b8-ad0a-c92f81c82815",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Ridge Cap Photos",
+                  "help": "Take some photos of the ridge caps",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+                "type": "SingleSelect",
+                "identifier": "8f339a1e-bee4-49ef-88e2-24fdd7c36f11",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "singleSelect": {
+                  "answerId": "",
+                  "label": "Ridge Cap Type",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "layout": "default",
+                  "optionPoolId": "a19c8957-e4e3-5539-af28-32cf467c6ae7"
+                }
+              },
+              {
+                "id": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+                "type": "MultiPhoto",
+                "identifier": "6e8025d7-8903-4401-9eee-57201a6d09cb",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Sheathing/Decking Photos",
+                  "help": "Take some photos of the sheathing + decking",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+                "type": "MultiLineText",
+                "identifier": "bdc5219c-4aff-43f1-8437-ea3d8e7ed4f3",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Sheathing/Decking Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "1/2in. CDX Plywood",
+                    "5/8in. CDX Plywood",
+                    "7/16in. OSB",
+                    "1/2in. OSB",
+                    "SF"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+                "type": "MultiPhoto",
+                "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Flashing Photos",
+                  "help": "Take some pictures of the Flashing",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+                "type": "MultiLineText",
+                "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Flashing Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Paint",
+                    "Flashing",
+                    "L (Roof/Wall)",
+                    "Counter/Apron",
+                    "Step",
+                    "Flashing",
+                    "LF"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+                "type": "MultiPhoto",
+                "identifier": "72eac108-8aae-4c46-b6e8-cea50c5577cc",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Transition Flashing Photos",
+                  "help": "Take some pictures of the Flashing",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "9ecfa933-8365-48e8-b800-324b73df6c39",
+                "type": "MultiLineText",
+                "identifier": "9ecfa933-8365-48e8-b800-324b73df6c39",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Transition Flashing Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Paint",
+                    "Flashing",
+                    "L (Roof/Wall)",
+                    "Counter/Apron",
+                    "Step",
+                    "Flashing",
+                    "LF"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+                "type": "MultiPhoto",
+                "identifier": "f5cc78bb-7f6d-49ea-9f40-bbe3ccc4ce14",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Plumbing/Pipe Jack Photos",
+                  "help": "Take some photos of the Plumbing",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+                "type": "MultiLineText",
+                "identifier": "a34bc3b2-9bdd-4cbc-9b08-12f29e5f78e9",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Plumbing/Pipe Jack Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Paint",
+                    "Rubber",
+                    "Aluminum base w/ Rubber",
+                    "Lead",
+                    "Steel",
+                    "Jacks"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+                "type": "MultiPhoto",
+                "identifier": "f5b4042c-9499-41d6-bc05-9aa59e228575",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Chimney/Venting Photos",
+                  "help": "Take some pictures of any Chimneys or Vents",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+                "type": "MultiLineText",
+                "identifier": "5a7a999f-67e4-4f8b-a292-fe64b2f2732c",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Chimney/Venting Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Paint",
+                    "Chimney Flue Cap",
+                    "Chase Cover",
+                    "Chimney Exhaust Vent",
+                    "Pot",
+                    "Shroud"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+                "type": "MultiPhoto",
+                "identifier": "a52e60b8-64d7-416b-95da-e6b642e09d87",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Chimney Flashing Photos",
+                  "help": "Take some photos of the Chimney Flashing",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+                "type": "MultiPhoto",
+                "identifier": "4cdb2610-c032-43ef-b0db-e89b7e12e072",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Exhaust/Furnace Vents",
+                  "help": "Take photos of the Exhaust/furnace vents",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+                "type": "MultiLineText",
+                "identifier": "78944e01-1681-440f-94fa-783eaa6dd0ae",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Exhaust/Furnace Vent Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Paint",
+                    "Exhaust Vent",
+                    "Furnace Vent",
+                    "5in. Cap",
+                    "6in. Cap",
+                    "8in. Cap",
+                    "10in. Cap"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+                "type": "MultiPhoto",
+                "identifier": "06554df8-dc1a-499d-82a9-5b97641f28cd",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Additional Vent Photos",
+                  "help": "Take photos of any additional vents",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+                "type": "MultiLineText",
+                "identifier": "80d2d491-1647-478a-8645-6c716d9a6fc4",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Additional Vent Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Paint",
+                    "Candy Canes",
+                    "Cupola",
+                    "Water Heater Vent"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+                "type": "MultiPhoto",
+                "identifier": "80de766f-47cb-43b4-9a8d-e7abc2196c5a",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Skylight Photos",
+                  "help": "Take Photos of any Skylight",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+                "type": "MultiLineText",
+                "identifier": "2cb24937-9e31-476c-96ea-5c1bb52d6eea",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "Skylight Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Paint",
+                    "Single Dome",
+                    "Double Dome",
+                    "Fixed",
+                    "Over Ridge",
+                    "Window",
+                    "Tunnel",
+                    "Flashing Kit"
+                  ],
+                  "snippets": []
+                }
+              },
+              {
+                "id": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+                "type": "MultiPhoto",
+                "identifier": "2d22d1a1-d17d-4276-8ab7-79e0fa18abd5",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiPhoto": {
+                  "answerId": "",
+                  "label": "Electrical/HVAC Photos",
+                  "help": "Take photos of any HVAC or Electrical Features",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": ""
+                }
+              },
+              {
+                "id": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+                "type": "MultiLineText",
+                "identifier": "4bb4cd40-b768-45e5-a3c8-87a7e5b7c782",
+                "visibilityRule": "always",
+                "visibilityExpr": "",
+                "errors": {},
+                "multiLineText": {
+                  "answerId": "",
+                  "label": "HVAC/Electrical Scope",
+                  "help": "Describe what you see",
+                  "readOnlyRule": "never",
+                  "readOnlyExpr": "",
+                  "requiredRule": "never",
+                  "requiredExpr": "",
+                  "keyboardType": "default",
+                  "quickKeys": [
+                    "N/A",
+                    "No Dmg",
+                    "R&R",
+                    "Detach&Reset",
+                    "Elec Mast",
+                    "Sat Dish",
+                    "AC Unit",
+                    "Evap Cooler",
+                    "Solar Panels"
+                  ],
+                  "snippets": []
+                }
+              }
+            ]
+          }
+        }
