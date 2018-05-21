@@ -1,0 +1,173 @@
+{
+  "id": "73677426-38f4-4e08-9654-aa8f63f6af91",
+  "type": "Section",
+  "identifier": "73677426-38f4-4e08-9654-aa8f63f6af91",
+  "visibilityRule": "always",
+  "visibilityExpr": "",
+  "errors": {},
+  "section": {
+    "title": "Check Out",
+    "children": [
+      {
+        "id": "23414fc5-3439-4d91-af0c-e8e12c1b56c7",
+        "type": "MultiLineText",
+        "identifier": "23414fc5-3439-4d91-af0c-e8e12c1b56c7",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Adjuster's Observations",
+          "help": "Write any additional observations you've made",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [],
+          "snippets": []
+        }
+      },
+      {
+        "id": "35538139-1623-42e0-9887-f8f18f14cc28",
+        "type": "DateInput",
+        "identifier": "35538139-1623-42e0-9887-f8f18f14cc28",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "dateInput": {
+          "answerId": "",
+          "label": "Confirmed Date of Loss",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "placeholder": ""
+        }
+      },
+      {
+        "id": "2bff1f68-6db7-409c-9475-5a130aa0666f",
+        "type": "SingleSelect",
+        "identifier": "2bff1f68-6db7-409c-9475-5a130aa0666f",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "singleSelect": {
+          "answerId": "",
+          "label": "Confirmed Cause of Loss",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "layout": "default",
+          "optionPoolId": "c3b9fdd3-de30-55cb-a500-ab1a0bf303d4"
+        }
+      },
+      {
+        "id": "4204d5b0-ec3c-4d48-81f6-87ea59802339",
+        "type": "MultiLineText",
+        "identifier": "4204d5b0-ec3c-4d48-81f6-87ea59802339",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Names of All Parties Present + Role",
+          "help": "Who was there?",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [
+            "=",
+            "PA",
+            "Insured",
+            "Contractor",
+            "Mr.",
+            "Mrs.",
+            "Ms."
+          ],
+          "snippets": []
+        }
+      },
+      {
+        "id": "0ce01ccd-5a2e-478b-b46d-e2837e15ac6b",
+        "type": "MultiLineText",
+        "identifier": "0ce01ccd-5a2e-478b-b46d-e2837e15ac6b",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Roof Inspection Results",
+          "help": "",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [],
+          "snippets": []
+        }
+      },
+      {
+        "id": "e48116b5-f3a0-42c5-b613-47461ce93bc9",
+        "type": "MultiLineText",
+        "identifier": "e48116b5-f3a0-42c5-b613-47461ce93bc9",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Elevation Inspection Results",
+          "help": "",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [],
+          "snippets": []
+        }
+      },
+      {
+        "id": "700b1a35-e9f2-46ea-b4a1-65e90bf8f54e",
+        "type": "TimeStamp",
+        "identifier": "700b1a35-e9f2-46ea-b4a1-65e90bf8f54e",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "timeStamp": {
+          "answerId": "",
+          "label": "Time Completed",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "placeholder": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "fe205885-d16e-42fe-a244-2c2b0eae7f53",
+        "type": "MultiLineText",
+        "identifier": "fe205885-d16e-42fe-a244-2c2b0eae7f53",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Additional Observations",
+          "help": "",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [],
+          "snippets": []
+        }
+      }
+    ]
+  }
+}
