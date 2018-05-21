@@ -1,0 +1,88 @@
+{
+  "id": "807b91ab-ed8c-4d69-91ec-14fa8658289f",
+  "type": "Section",
+  "identifier": "807b91ab-ed8c-4d69-91ec-14fa8658289f",
+  "visibilityRule": "always",
+  "visibilityExpr": "",
+  "errors": {},
+  "section": {
+    "title": "Check In",
+    "children": [
+      {
+        "id": "1c314e59-27bd-4c01-8e09-00b44ed9484d",
+        "type": "TimeStamp",
+        "identifier": "1c314e59-27bd-4c01-8e09-00b44ed9484d",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "timeStamp": {
+          "answerId": "",
+          "label": "Time of Arrival",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "placeholder": "0001-01-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "94ba29d1-0b09-48e2-85e7-0d0832d478fc",
+        "type": "MultiPhoto",
+        "identifier": "94ba29d1-0b09-48e2-85e7-0d0832d478fc",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiPhoto": {
+          "answerId": "",
+          "label": "House Photos",
+          "help": "Take pictures of the house",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": ""
+        }
+      },
+      {
+        "id": "ddafc217-1355-47ba-a815-ab9417292c11",
+        "type": "MultiPhoto",
+        "identifier": "ddafc217-1355-47ba-a815-ab9417292c11",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiPhoto": {
+          "answerId": "",
+          "label": "Address Verification photos",
+          "help": "Take pictures of the address number",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": ""
+        }
+      },
+      {
+        "id": "1c9ffea4-5bba-4410-9a80-044fb8c7b97b",
+        "type": "MultiLineText",
+        "identifier": "1c9ffea4-5bba-4410-9a80-044fb8c7b97b",
+        "visibilityRule": "always",
+        "visibilityExpr": "",
+        "errors": {},
+        "multiLineText": {
+          "answerId": "",
+          "label": "Inspection Attendees",
+          "help": "Please write down who is there",
+          "readOnlyRule": "never",
+          "readOnlyExpr": "",
+          "requiredRule": "never",
+          "requiredExpr": "",
+          "keyboardType": "default",
+          "quickKeys": [
+            "Insured =",
+            "Contractor =",
+            "PA ="
+          ],
+          "snippets": []
+        }
+      }
+    ]
+  }
+}
