@@ -1,0 +1,18 @@
+{
+"id": "cef8d84b-5b31-4d22-b7aa-26ff45bc7e17",
+               "name": "15lb Felt (Type 1)",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "7c163760-2b74-4607-92f1-e59c8e79fcb6",
+               "name": "30lb Felt (Type 2)",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "74877c5b-236e-4a1f-bb06-424365c42d95",
+               "name": "Synthetic Felt",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+}
