@@ -1,0 +1,114 @@
+{
+"id": "8e407213-d030-4d3b-b6cc-ddbebc878c62",
+               "name": "Back of Sewer and Drain",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "cecf6f62-a5e1-4722-b436-f82cc85d782e",
+               "name": "Collapse",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "4ef4f57d-d070-47fa-b454-18f6df7a1f67",
+               "name": "Earthquake",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "50770163-171c-42a5-952c-2069f732ffa5",
+               "name": "Fire",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "10a1189f-3a1b-4cf3-aa19-74de0c30031c",
+               "name": "Flood",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "82fb4896-061b-48ca-9a04-e6f7e806665c",
+               "name": "Freeze",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "8221f7ce-cba2-47fe-8e9f-6defa1b485e0",
+               "name": "Hail",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "f53e9a1a-64c0-4c18-9828-927f0827d4e9",
+               "name": "Hurricane",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "e5deca0a-e621-4906-812e-3b3935fbfe0f",
+               "name": "Lightning",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "0fef00cc-478a-4ef0-878e-4e29ddc2f5b4",
+               "name": "Sewage",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "8dfd8e01-e379-4f4f-82e0-b134775d44e1",
+               "name": "Smoke",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "0e187857-5ca1-409e-8548-5ea3a0588bda",
+               "name": "Theft",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "0c9c491f-e9f7-4008-a7bc-342c1bb422de",
+               "name": "Tornado",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "f68fa8c6-1cb4-4e47-8a17-eee3408cdf5b",
+               "name": "Vandalism",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "06aa301b-2733-40f1-94c2-df493c3a7e4c",
+               "name": "Vehicle Property Collision",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "62d1b4ee-c445-4c1c-9947-9a18f8c91d5e",
+               "name": "Water-Domestic",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "42d58957-e94b-4e0e-94e4-91844e333741",
+               "name": "Water Non-Domestic",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "275db393-a37d-4188-9913-55f98ac28f73",
+               "name": "Weight of Ice and Snow",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+},
+{
+"id": "063ba395-b15e-474e-a6fe-d299f32de06c",
+               "name": "Wind",
+               "deletedAt": "0001-01-01T00:00:00Z",
+               "errors": {}
+}
