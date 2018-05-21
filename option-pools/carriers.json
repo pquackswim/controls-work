@@ -1,0 +1,358 @@
+{
+  "carriers": [
+    {
+      "id": "fcd329ea-8f8e-4c38-9761-8756a0be936c",
+      "name": "AAA",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "116b580a-d75a-45c6-94d1-a13a9c409b27",
+      "name": "ACE",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "a02b9b6f-3b30-4dc7-a955-3a934ad99640",
+      "name": "Alfa",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "b5b1393f-e5ab-43e2-b2e1-5e8c0682d84b",
+      "name": "Allstate",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "2ea00d94-9d62-4122-afa6-2f8a45d847a1",
+      "name": "Allstate Insurance of Canada",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "b08a6c6c-fc31-4a27-9a3a-7487272784de",
+      "name": "American Family",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "170a0e72-7f28-4a9f-836c-e7e71e4736ce",
+      "name": "American Financial",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "87d44ec2-b689-40cb-9204-b19b5e4ac988",
+      "name": "American International Group",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "609bf61f-5573-48c5-9a47-fa722cc63233",
+      "name": "American National (ANICO)",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "f75c0dd1-295a-4bcd-a208-a2c39613a48a",
+      "name": "Amica",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "2714f692-37af-47c4-a987-aac45751de8f",
+      "name": "Auto-Owners",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "88696db0-6f19-4bb7-8abb-7d4f180bfd79",
+      "name": "Aviva",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "dab28331-efcc-491c-8ff8-7488895c3a77",
+      "name": "AXA Canada",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "89d910db-bec7-4c62-a0a8-7e714f2450fd",
+      "name": "Berkshire Hathaway",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "12814839-f1a5-4b40-a56c-639d6d2f6009",
+      "name": "Capitale Assurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "d550ec0d-5502-4739-aff8-ae7248ad4ddd",
+      "name": "Chubb",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "8e00e5c9-4357-4e49-b4f7-e03d7e95ea15",
+      "name": "Chubb Insurance of Canada",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "9e275e05-dcb6-417e-a05b-09f2ca843ebd",
+      "name": "Cincinatti Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "9e275e05-dcb6-417e-a05b-09f2ca843ebd",
+      "name": "Cincinatti Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "62ab692b-6e5f-4c15-98bb-73d0a9eae7b6",
+      "name": "Citizens",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "c71b5277-e2bf-4ebe-836e-c71772ab49c5",
+      "name": "CNA",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "a78c1c0a-a856-4ba3-86ed-ec1f69e8e806",
+      "name": "Country Financial",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "4facbff0-a83c-4872-a8fd-3cb0600317b0",
+      "name": "Desjardins General",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "5cd13cb5-02a8-4d1c-b7b9-8dce05795b93",
+      "name": "Dominion of Canada",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "889f00b6-f70a-4b0f-9f7a-25e347c3704a",
+      "name": "Economical Insurance Group",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "9736304a-d0e1-4749-8df6-7a787467a61a",
+      "name": "Encompass",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "8cb8c589-4474-45d0-8d6e-89bf1b5e233c",
+      "name": "Erie Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "5f4d6b6f-e8f8-43ff-a843-22d6cf631cf3",
+      "name": "Family Mutual",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "567dcc96-69bc-4a81-8099-a8f876d33065",
+      "name": "Farmers",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "b1ec0b79-9a72-426e-be16-10b13bed4b35",
+      "name": "Fireman's Fund",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "1fc8d1e4-9f35-4e55-b4b8-adb70982d6b6",
+      "name": "GEICO",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "082985db-a2be-44cb-af0f-0ba278183114",
+      "name": "Gore Mutual Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "4b102b1d-4412-4b08-9a9d-9cb4937ab293",
+      "name": "Guarantee Company of North America",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "01a2125d-5a12-49dd-a2de-bd763b09eabb",
+      "name": "Hanoer",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "8ed69890-a31e-49cf-a5f1-677c925ac635",
+      "name": "Hartford",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "b4fb3c85-1ccc-4452-ad71-1a1743695d52",
+      "name": "Intact Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "5273da0c-49df-4d2f-bcb7-7aab464adcbc",
+      "name": "Liberty Mutual",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "dfeeff1a-25f4-4dbe-8bc0-47814f1d83d9",
+      "name": "Mercury",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "53e949bb-c9f2-49fb-837c-fcceed83133a",
+      "name": "MetLife",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "1f395916-c2ea-40fc-8705-089aac7c16d9",
+      "name": "NatGen",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "4f968d5a-65fe-409a-8bd4-fefc74acd301",
+      "name": "Nationwide",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "8942a474-94b7-4c18-bc9f-a82d1522bac6",
+      "name": "North Carolina Farm Bureau",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "5fda4311-6534-4550-9b96-6156db05a962",
+      "name": "Ontario Mutual Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "61dbd202-c46e-4e6a-96fe-7e793fe87f51",
+      "name": "Progressive",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "46747a70-a795-4ecd-8bdc-f61ba4911b98",
+      "name": "QBE",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "3b740896-c871-473b-a5fe-bf9922d39b77",
+      "name": "RBC General Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "5c2eb71f-a76c-410b-8135-e73b66c471ae",
+      "name": "RSA Canada",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "c56a9a0a-ecb0-41f1-84af-69cab803f6c9",
+      "name": "Safeco",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "0c649d4e-2ef4-457e-b335-8cfea52a6640",
+      "name": "SGI Canada",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "d01ddf38-fc3c-4b6c-a49f-04626bf74d53",
+      "name": "Shelter",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "5ee9ca5c-3e03-460e-8a68-f55370c9ba5e",
+      "name": "State Farm",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "ed2464cf-c72a-45a3-acc3-9a61d5f81a0f",
+      "name": "State Farm Insurance of Canada",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "83f4748e-37ca-44a2-b75f-f4ac8019b8f9",
+      "name": "TD Insurance",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "54f13d65-6b59-4023-97d2-38c20d448c92",
+      "name": "Tennessee Farm Bureau",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "d17ca61c-5bf0-4cde-a0af-0454b8975ee4",
+      "name": "The Co-operators",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "6fbf190c-b4d5-49da-ab33-0710366c3e6e",
+      "name": "Travelers",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "1fbb88a5-a3fe-41bb-accc-336c0ef929bc",
+      "name": "USAA",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "cf6aeca0-b520-47c3-8b2e-0d8e546772f7",
+      "name": "Wawanesa Mutual",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    },
+    {
+      "id": "c6577e95-21a1-4bc8-a277-b467d922a9c4",
+      "name": "Zurich",
+      "deletedAt": "0001-01-01T00:00:00Z",
+      "errors": {}
+    }
+  ]
+}
